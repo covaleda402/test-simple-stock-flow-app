@@ -18,7 +18,7 @@ export default function App() {
 
   // Login form state
   const [loginUsername, setLoginUsername] = useState('admin@stockflow.local');
-  const [loginPassword, setLoginPassword] = useState('admin123456');
+  const [loginPassword, setLoginPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
   // Catalog state
